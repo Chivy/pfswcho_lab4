@@ -4,10 +4,10 @@ import java.util.concurrent.TimeUnit;
 
 public class Main {
     static final String JDBC_DRIVER = "com.mysql.jdbc.Driver";
-    static final String DB_URL = "jdbc:mysql://FULL_2020_080749:3306/MJELEN";
+    static final String DB_URL = "jdbc:mysql://Full_2020_080749:3306/MJELEN";
 
-    static final String USER = "admin";
-    static final String PASS = "admin";
+    static final String USER = "root";
+    static final String PASS = "root";
 
     static Scanner in = new Scanner( System.in);
     private static final String CREATE_TABLE_CARS = "CREATE TABLE IF NOT EXISTS Cars (ID int, BRAND varchar(255), MODEL varchar(255), PRODUCTION_YEAR varchar(255), TYPE varchar(255) );";
