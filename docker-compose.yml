@@ -14,8 +14,8 @@ services:
   environment:
       MYSQL_ROOT_PASSWORD: "root"
       MYSQL_DATABASE: "MJELEN"
-      MYSQL_USER: "root"
-      MYSQL_PASSWORD: "root"
+      MYSQL_USER: "admin"
+      MYSQL_PASSWORD: "admin"
  java:
   image: chivy95/pfswcho_lab4:latest
   stdin_open: true
